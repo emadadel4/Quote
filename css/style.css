@@ -1,0 +1,33 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.bg-image {
+  background-image: url("/GTA6.jpg"); /* Replace with your image URL */
+  height: 100%; /* Full height */
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.q {
+  font-size: medium;
+}
