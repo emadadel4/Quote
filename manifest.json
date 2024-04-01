@@ -1,17 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Qoutes - A Beautiful New Tab",
-  "short_name": "Tabliss",
+  "name": "Qoutes - A New Tab",
+  "short_name": "Qoutes",
   "version": "2.6.0",
-  "description": "A beautiful New Tab page with many customisable backgrounds and widgets that does not require any permissions.",
+  "description": "A beautiful New Tab page with many Qoutes customisable backgrounds.",
   "chrome_url_overrides": {
     "newtab": "index.html"
-  },
-  "icons": {
-    "32": "icons/32.png",
-    "48": "icons/48.png",
-    "96": "icons/96.png",
-    "128": "icons/128.png"
   },
   "permissions": ["storage"]
 }
