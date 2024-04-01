@@ -6,7 +6,7 @@ html {
 }
 
 .bg-image {
-  background-image: url("/GTA6.jpg"); /* Replace with your image URL */
+  background-image: url("/src/wall/GTA6.jpg"); /* Replace with your image URL */
   height: 100%; /* Full height */
   background-repeat: no-repeat;
   background-size: cover;
